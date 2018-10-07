@@ -34,7 +34,7 @@ version: '3'
 services:
   xiaomi-aqara-rtsp:
     container_name: "xiaomi-aqara-rtsp"
-    image: "humpedli/docker-xiaomi-aqara-camera-rtsp"
+    image: "humpedli/docker-xiaomi-aqara-rtsp"
     ports:
       - "8554:8554"
     environment:
